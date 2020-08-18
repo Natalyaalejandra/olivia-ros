@@ -1,0 +1,26 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat; /*no se repite la imagen como mosaico*/
+  background-size: cover; /*ocupa todo el espacio del contenedor*/
+  background-position: left; /*muestra de izquiera a derecha*/
+  padding-bottom: 10rem;
+}
+
+.carousel-indicators {
+  top: 50px; /*esto modifica la altura del indicador*/
+}
+
+.carousel-indicators li { /*se les da el mismo alto y ancho para generar cuadrados*/
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /*esto lo hace redondo*/
+}
+
+footer {
+  padding-top: 10rem;
+}
